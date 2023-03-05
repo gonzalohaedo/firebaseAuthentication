@@ -1,0 +1,11 @@
+/*SENTENCIAS GLOBALES -------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*
+  background-color: #0a0c10;
+  */
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
