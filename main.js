@@ -3,3 +3,4 @@ import { auth } from "./js/firebase.js";
 
 //IMPORTACIONES DE ARCHIVOS JAVASCRIPT PROPIOS
 import "./js/signupForm.js";
+import "./js/signInForm.js";
