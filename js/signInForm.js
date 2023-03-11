@@ -1,3 +1,5 @@
+//ESTE ARCHIVO HACE FUNCIONAR EL INICIO DE SESIÓN. IMPORTA signInWithEmailAndPassword + auth DESDE FIREBASE Y SE COMBINA CON UNA FUNCION QUE TOMA LOS DATOS DESDE EL HTML A TRAVES DE UN FORMULARIO.
+
 import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
 import { auth } from "./firebase.js";
 
@@ -13,7 +15,9 @@ signInForm.addEventListener("submit", async (e) => {
     const credentials = await signInWithEmailAndPassword(auth, email, password);
     console.log(credentials);
 
-    alert("Bienvenide nuevamente");
+    alert("Iniciada la sesión correctamente.");
+
+    window.location.href = "states.html";
   } catch (error) {
     if (error.code === "auth/wrong-password") {
       alert("Contraseña incorrecta.");

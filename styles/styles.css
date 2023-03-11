@@ -10,8 +10,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/*index.html -------------------------------------------------- */
-
+/*index.html INICIO -------------------------------------------------- */
 .boxForms {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -19,7 +18,6 @@
   justify-content: center;
   grid-template-areas: "cajauno cajados";
 }
-
 .boxSignUpForm {
   grid-area: cajauno;
   background-color: #0a0c10;
@@ -27,7 +25,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .boxSignInForm {
   grid-area: cajados;
   background-color: #0a0c10;
@@ -35,7 +32,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .boxForm {
   width: 400px;
   background: #22252b;
@@ -48,13 +44,11 @@
   display: flex;
   flex-direction: column;
 }
-
 .boxForm h2 {
   background: #22252b;
   font-size: 1.25rem;
   margin-bottom: 16px;
 }
-
 .controls {
   width: 100%;
   background: #22252b;
@@ -66,7 +60,6 @@
   font-size: 16px;
   color: white;
 }
-
 .boxForm .botons {
   width: 100%;
   background: #279d2e;
@@ -76,4 +69,15 @@
   margin: 16px 0;
   font-size: 16px;
   color: white;
+}
+/*index.html FIN -------------------------------------------------- */
+
+/*states.html INICIO -------------------------------------------------- */
+.sectionStates {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0a0c10;
+  height: 100vh;
 }
