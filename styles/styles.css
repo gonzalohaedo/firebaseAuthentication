@@ -9,3 +9,71 @@
   background-color: white;
   font-family: "Montserrat", sans-serif;
 }
+
+/*index.html -------------------------------------------------- */
+
+.boxForms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100vh;
+  justify-content: center;
+  grid-template-areas: "cajauno cajados";
+}
+
+.boxSignUpForm {
+  grid-area: cajauno;
+  background-color: #0a0c10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxSignInForm {
+  grid-area: cajados;
+  background-color: #0a0c10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxForm {
+  width: 400px;
+  background: #22252b;
+  padding: 30px;
+  margin: auto;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxForm h2 {
+  background: #22252b;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+.controls {
+  width: 100%;
+  background: #22252b;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 16px;
+  color: white;
+}
+
+.boxForm .botons {
+  width: 100%;
+  background: #279d2e;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  margin: 16px 0;
+  font-size: 16px;
+  color: white;
+}
